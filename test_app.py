@@ -9,7 +9,7 @@ st.set_page_config(page_title="Thank You Card API Tester", layout="wide")
 st.title("Thank You Card API Tester")
 
 # API Configuration
-API_BASE_URL = "http://localhost:8080/api"
+API_BASE_URL = "https://card-handler-backend.onrender.com/api"
 st.sidebar.header("API Configuration")
 api_key = st.sidebar.text_input("API Key", type="password")
 sandbox_mode = st.sidebar.checkbox("Sandbox Mode", value=True)
